@@ -44,8 +44,8 @@ public class PostServlet extends HttpServlet {
 		response.setContentType("text/html");
 		PrintWriter printWriter = response.getWriter();
 		
-		printWriter.print("<p> UserName = " + name + "</p>" + "<p> pass= " + password + "</p>");
-		
+		printWriter.print("<p> UserName = " + name + "</p>" + "<p> You logged in triumphantly</p>");
+		printWriter.print("password = " + password);
 	}
 
 }
